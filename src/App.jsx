@@ -9,18 +9,14 @@ function App() {
   return (
     <>
       <h1>VITE FALL 2025</h1>
+        <h2>Rachhana Saish Baliga</h2>
+        <h3> Uniqname : rachhana</h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
           <span>{'⭐️'.repeat(count)}</span>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
